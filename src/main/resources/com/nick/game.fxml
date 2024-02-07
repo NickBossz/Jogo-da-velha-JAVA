@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="469.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nick.ButtonsController">
+   <children>
+      <Text fill="RED" layoutX="62.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" wrappingWidth="40.078125">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Text fill="#00c7ff" layoutX="354.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="o" wrappingWidth="40.078125">
+         <font>
+            <Font size="126.0" />
+         </font>
+      </Text>
+      <Line endX="8.0" endY="266.0" layoutX="165.0" layoutY="238.0" startX="8.0" startY="-26.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line endX="8.0" endY="266.0" layoutX="265.0" layoutY="238.0" startX="8.0" startY="-29.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line endX="334.0" endY="-12.0" layoutX="57.0" layoutY="317.0" startX="8.0" startY="-12.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line endX="338.0" endY="-12.0" layoutX="57.0" layoutY="418.0" startX="8.0" startY="-12.0" stroke="WHITE" strokeWidth="7.0" />
+      <Line endX="488.0" endY="-29.0" layoutX="-19.0" layoutY="185.0" startX="19.0" startY="-29.0" stroke="WHITE" strokeWidth="4.0" />
+      <Line endX="18.5" endY="-183.0" layoutX="216.0" layoutY="183.0" startX="19.0" startY="-29.0" stroke="WHITE" strokeWidth="4.0" />
+      <Text id="xPunc" fill="WHITE" layoutX="183.0" layoutY="104.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Text id="oPunc" fill="WHITE" layoutX="256.0" layoutY="104.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Button id="c1l1" onAction="#buttonClick" layoutX="61.0" layoutY="208.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00b7ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c2l1" onAction="#buttonClick" layoutX="61.0" layoutY="309.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c3l1" onAction="#buttonClick" layoutX="61.0" layoutY="414.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c3l2" onAction="#buttonClick" layoutX="176.0" layoutY="414.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="93.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c2l2" onAction="#buttonClick" layoutX="179.0" layoutY="312.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="87.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c1l2" onAction="#buttonClick" layoutX="185.0" layoutY="205.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="80.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c1l3" onAction="#buttonClick" layoutX="282.0" layoutY="209.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c2l3" onAction="#buttonClick" layoutX="282.0" layoutY="309.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="c3l3" onAction="#buttonClick" layoutX="277.0" layoutY="410.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="108.0" style="-fx-background-color: black;" textAlignment="CENTER" textFill="#00d9ff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button id="restart" onAction="#restartGame" disable="true" layoutX="177.0" layoutY="653.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Reiniciar jogo" />
+      <Text id="vencedor" fill="#00ff26" layoutX="140.0" layoutY="594.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
